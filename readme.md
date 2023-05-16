@@ -19,3 +19,8 @@ SQL de la tabla:
 );"
 
 El archivo config.php se creó para facilitar la edición y configuración de credenciales para la base de datos.
+
+Los endpoint para el caso de localhost, serían:
+- http://localhost/prueba_tecnica/View/ (GET)
+- http://localhost/prueba_tecnica/View/?id=1 (GET)
+- http://localhost/prueba_tecnica/View/ (POST) Campos: nombre,editorial,categoria,paginas
